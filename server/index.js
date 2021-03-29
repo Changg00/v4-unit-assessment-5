@@ -4,7 +4,6 @@ const express = require('express'),
     postCtrl = require('./controllers/posts'),
     massive = require('massive'),
     session = require('express-session')
-    // auth = require('./middleware/authMiddleware')
 
 const app = express();
 
